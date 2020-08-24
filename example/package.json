@@ -13,7 +13,13 @@
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts",
-    "mx-components-boilperplate": "link:.."
+    "react-page-maker": "link:..",
+    "bootstrap": "^4.1.0",
+    "pure-react-carousel": "^1.23.0",
+    "react-color": "^2.17.3",
+    "react-icons": "^3.7.0",
+    "react-json-view": "^1.16.5",
+    "reactstrap": "^5.0.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"

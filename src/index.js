@@ -1,6 +1,27 @@
-import React from 'react'
-import styles from './styles.module.css'
+// import all components
+import Canvas from './components/Canvas/Canvas'
+import Dropzone from './components/Dropzone/Dropzone'
+import Draggable from './components/Draggable/Draggable'
+import Palette from './components/Palette/Palette'
+import Trash from './components/Trash/Trash'
+import Preview from './components/Preview/Preview'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+// import all API's
+import state from './core/state'
+import core from './core/core'
+
+
+const registerPaletteElements = core.registerPaletteElements
+
+export {
+  Canvas,
+  Dropzone,
+  Draggable,
+  Palette,
+  Trash,
+  Preview,
+  // all open API's
+  state,
+  core,
+  registerPaletteElements
 }

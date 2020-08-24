@@ -1,7 +1,7 @@
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.hydrate(<App />, document.getElementById('root'));
+registerServiceWorker();
